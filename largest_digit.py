@@ -1,0 +1,47 @@
+number = int(input("Enter a number: "))
+
+largest = 0
+
+while number > 0:
+    last_digit = number % 10
+
+    if last_digit > largest:
+        largest = last_digit
+
+    number = number // 10
+
+print(largest)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#number = int(input("Enter a number: "))
+#
+#smallest = 9
+#
+#while number > 0:
+#    digit = number % 10
+#
+#    if digit < smallest:
+#        smallest = digit
+#
+#    number = number // 10
+#
+#print(smallest)
